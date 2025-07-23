@@ -1,19 +1,17 @@
-# num1 = int(input("Enter the first number: "))
-# num2 = int(input("Enter the second number: "))
+# Task 1: Check if a Number is Even or Odd
+# user = int(input("Enter a number: "))
 #
-# adding = num1 + num2
-# subtract = num1 - num2
-# multi = num1 * num2
-# divi = num1/num2
+# if user % 2 == 0:
+#     print(user, "is an even number")
 #
-# print("Addition:", adding)
-# print("Subtraction:", subtract)
-# print("Multiplication:", multi)
-# print("Division:", divi)
+# else:
+#     print(user, "is an odd number")
 
-name1 = input("Enter your first name: ")
-name2 = input("Enter your last name: ")
+# Task 2: Sum of Integers from 1 to 50 Using a Loop
+# count = 0
+# for item in range(1,51):
+#     count = item + count
+#
+# print("The sum of numbers from 1 to 50 is ",count)
 
-fullname = name1 + " " + name2
 
-print("Hello, ", fullname,"! Welcome to Python program.")
